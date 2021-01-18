@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card component</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="card-bg">
+          <img src="./img/01.png" alt="avatar" id="imgPreview"/>
+          <div class="editblock"><i class="fas fa-pencil-alt"></i>Edit
+            <input type="file" name="" id="myFileInput">
+          </div>
+        </div>
+        <!-- <div id="imgPreview"></div> -->
+        <div class="card-body">
+          <h4>Victor Creast <span class="info-age">26</span></h4>
+          <small class="info-city">London</small>
+          <div class="info-soc">
+            <div class="info-followers">
+              <div class="info-num">80K</div>
+              <small class="info-text">Followers</small>
+            </div>
+            <div class="info-likes">
+              <div class="info-num">80K</div>
+              <small class="info-text">Likes</small>
+            </div>
+            <div class="info-photos">
+              <div class="info-num">1.4K</div>
+              <small class="info-text">Photos</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
